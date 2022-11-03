@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { makeStyles, Paper } from "@cek-js/core-ui/material-ui";
 
-import TablePage from "./TablePage";
 import { BuildContext } from "../context/buildContext/buildContext";
 import { TableContext } from "../context/tableContext/tableContext";
 import Table from "../../components/Table";

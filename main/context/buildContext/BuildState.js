@@ -1,7 +1,5 @@
 import React, { useState, useContext } from "react";
 import axios from "axios";
-import { FilterContext } from "../filterContext/filterContext";
-import { TableContext } from "../tableContext/tableContext";
 import { BuildContext } from "./buildContext";
 
 export const BuildState = ({ children }) => {
